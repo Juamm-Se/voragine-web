@@ -1,0 +1,35 @@
+VORÁGINE BY ALTTURA · CATÁLOGO 3D
+=================================
+
+VER LA PÁGINA EN TU COMPUTADOR
+  Haz doble clic en index.html. Se abre en tu navegador. No necesita instalar nada.
+
+CAMBIAR NOMBRE, ESLOGAN O WHATSAPP
+  Abre config.js con el Bloc de notas, cambia lo que está entre comillas y guarda.
+
+ACTUALIZAR EL CATÁLOGO DESDE EXCEL
+  1. Abre herramientas/actualizar-catalogo.html (doble clic).
+  2. Elige tu archivo de Excel y pulsa "Descargar catalogo.js".
+  3. Reemplaza el archivo data/catalogo.js por el que descargaste.
+
+PUBLICARLA EN INTERNET (GRATIS)
+  Opción más fácil, con Netlify:
+  1. Entra a https://app.netlify.com/drop
+  2. Arrastra ESTA carpeta completa (sitio-web) a la página.
+  3. En segundos te da un enlace público. Crea una cuenta gratis para conservarlo
+     y, si quieres, conecta un dominio propio (ej. parcheparfum.com).
+  Cada vez que actualices el catálogo, vuelve a arrastrar la carpeta en tu sitio de Netlify
+  (pestaña "Deploys").
+
+  También sirve para Vercel, GitHub Pages o cualquier hosting: se sube la carpeta tal cual.
+
+QUÉ HAY EN LA CARPETA
+  index.html ........... la página
+  config.js ............ nombre de la tienda, WhatsApp y mensaje de cotización
+  data/catalogo.js ..... los perfumes
+  css/, js/, img/ ...... diseño y motor 3D (no hace falta tocarlos)
+  herramientas/ ........ conversor de Excel a catálogo
+  img/perfumes/ ........ fotos de cada perfume (.webp para internet y .js para abrir con doble clic)
+
+FUENTE DEL CATÁLOGO
+  437 perfumes originales del catálogo mayorista de KII Parfum. Sin precios: todo se cotiza por WhatsApp.

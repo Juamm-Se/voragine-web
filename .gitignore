@@ -1,0 +1,14 @@
+# Material interno que no se publica
+herramientas/
+Claude outputs/
+respaldo*/
+*.xlsx
+*.xls
+*.pdf
+*.zip
+*.tar.gz
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
