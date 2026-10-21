@@ -1,0 +1,51 @@
+/* ============================================================
+   Mejoras de calidad (octubre 2026)
+   Se carga después de estilos.css. Para deshacer, quita su <link> del index.html.
+   ============================================================ */
+
+/* Textos secundarios más legibles (contraste AA sobre fondo oscuro) */
+:root { --texto-3: rgba(244, 239, 230, .56); }
+
+/* Ficha de un perfume sin foto: medallón que cabe en la pantalla y aviso de foto */
+.ficha-monograma {
+  position: relative;
+  width: min(200px, 60%); height: auto; aspect-ratio: 1;
+  font-size: clamp(48px, 9vw, 84px);
+  margin-bottom: 12%;
+}
+.ficha-monograma::after {
+  content: "Foto próximamente";
+  position: absolute; left: 50%; top: calc(100% + 14px); transform: translateX(-50%);
+  white-space: nowrap; font-family: var(--sans); font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--texto-2);
+}
+@media (max-width: 760px) {
+  .ficha-monograma { width: auto; height: 62%; margin-bottom: 18%; }
+  .ficha-monograma::after { top: calc(100% + 8px); font-size: 11px; }
+}
+
+/* Perfume sin marca: no mostrar el separador suelto antes de "Ref." */
+#info-marca:empty + .sep { display: none; }
+
+/* Barra superior en celular: 4 botones del mismo tamaño, con aire entre ellos */
+@media (max-width: 760px) {
+  .barra { padding-left: 14px; padding-right: 14px; column-gap: 8px; }
+  .logo-img { max-width: calc(100vw - 28px - 4 * 60px - 4 * 8px); }
+  .barra .btn-icono {
+    position: relative;
+    width: 60px; min-width: 60px; height: 54px; padding: 0;
+    border-radius: 16px; gap: 5px;
+  }
+  .barra .btn-icono svg { width: 20px; height: 20px; }
+  .barra .txt-corto, .barra .btn-inicio .txt { font-size: 10px; font-weight: 500; letter-spacing: .01em; }
+  .barra .btn-filtros .contador, .barra .btn-pedido .contador {
+    position: absolute; top: -5px; right: -5px; min-width: 18px; height: 18px; font-size: 10.5px;
+    box-shadow: 0 0 0 2px #0b0a0d;
+  }
+}
+@media (max-width: 380px) {
+  .barra { column-gap: 6px; }
+  .barra .btn-icono { width: 56px; min-width: 56px; height: 52px; border-radius: 14px; }
+  .barra .txt-corto, .barra .btn-inicio .txt { font-size: 9.5px; letter-spacing: 0; }
+  .logo-img { max-width: calc(100vw - 28px - 4 * 56px - 4 * 6px); }
+}
