@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## Sin publicar
+
+- Los perfumes sin foto pasan al final de la vitrina, y su ficha dice "Foto próximamente" en vez de mostrar una letra gigante cortada.
+- El panel de filtros muestra cuántos perfumes hay con los filtros elegidos (antes decía siempre 767).
+- En celular, tocar fuera del panel de filtros lo cierra.
+- Textos grises pequeños más legibles (contraste 5,7:1).
+- Accesibilidad: la ventana de bienvenida tiene nombre y el mensaje "No encontramos..." del buscador está bien marcado.
+
 ## v1.0.0 · 2026-10-21
 
 Primera versión publicada para pruebas con clientes.

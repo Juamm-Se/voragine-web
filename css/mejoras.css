@@ -1,0 +1,25 @@
+/* ============================================================
+   Mejoras de calidad (octubre 2026)
+   Se carga después de estilos.css. Para deshacer, quita su <link> del index.html.
+   ============================================================ */
+
+/* Textos secundarios más legibles (contraste AA sobre fondo oscuro) */
+:root { --texto-3: rgba(244, 239, 230, .56); }
+
+/* Ficha de un perfume sin foto: medallón que cabe en la pantalla y aviso de foto */
+.ficha-monograma {
+  position: relative;
+  width: min(200px, 60%); height: auto; aspect-ratio: 1;
+  font-size: clamp(48px, 9vw, 84px);
+  margin-bottom: 12%;
+}
+.ficha-monograma::after {
+  content: "Foto próximamente";
+  position: absolute; left: 50%; top: calc(100% + 14px); transform: translateX(-50%);
+  white-space: nowrap; font-family: var(--sans); font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--texto-2);
+}
+@media (max-width: 760px) {
+  .ficha-monograma { width: auto; height: 62%; margin-bottom: 18%; }
+  .ficha-monograma::after { top: calc(100% + 8px); font-size: 11px; }
+}
