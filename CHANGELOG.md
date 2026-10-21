@@ -5,6 +5,8 @@
 - Los perfumes sin foto pasan al final de la vitrina, y su ficha dice "Foto próximamente" en vez de mostrar una letra gigante cortada.
 - El panel de filtros muestra cuántos perfumes hay con los filtros elegidos (antes decía siempre 767).
 - En celular, tocar fuera del panel de filtros lo cierra.
+- En celular, los 4 botones de arriba tienen el mismo tamaño y más espacio entre ellos.
+- Si un perfume no tiene marca, ya no sale un punto suelto antes de "Ref.".
 - Textos grises pequeños más legibles (contraste 5,7:1).
 - Accesibilidad: la ventana de bienvenida tiene nombre y el mensaje "No encontramos..." del buscador está bien marcado.
 
