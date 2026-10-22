@@ -37,7 +37,8 @@ window.CATALOGO = [
 "Notas de salida": "Pera, bergamota",
 "Notas de corazón": "Jazmín, rosa",
 "Notas de fondo": "Haba tonka, vainilla",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-515.webp"
 },
 {
 "Ref": "PERF-314",
@@ -235,7 +236,8 @@ window.CATALOGO = [
 "Notas de salida": "Pimienta blanca, pimienta negra, bergamota",
 "Notas de corazón": "Salvia, cedro",
 "Notas de fondo": "Haba tonka, cacao, ámbar",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-768.webp"
 },
 {
 "Ref": "PERF-322",
@@ -447,7 +449,8 @@ window.CATALOGO = [
 "Notas de salida": "Pera, bergamota",
 "Notas de corazón": "Salvia, lavanda",
 "Notas de fondo": "Almizcle, maderas",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-769.webp"
 },
 {
 "Ref": "PERF-770",
@@ -460,7 +463,8 @@ window.CATALOGO = [
 "Notas de salida": "Pimienta rosa",
 "Notas de corazón": "Jazmín",
 "Notas de fondo": "Pachulí, vetiver, ámbar, almizcle blanco",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-770.webp"
 },
 {
 "Ref": "PERF-368",
@@ -918,7 +922,8 @@ window.CATALOGO = [
 "Notas de salida": "Melocotón, frambuesa",
 "Notas de corazón": "Jazmín, gardenia",
 "Notas de fondo": "Almizcle, vainilla",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-710.webp"
 },
 {
 "Ref": "PERF-716",
@@ -1053,7 +1058,8 @@ window.CATALOGO = [
 "Notas de salida": "Mandarina verde, jazmín de agua, flor de jengibre",
 "Notas de corazón": "Vainilla salada",
 "Notas de fondo": "Madera de cachemira, ámbar gris, sándalo",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-772.webp"
 },
 {
 "Ref": "PERF-700",
@@ -1134,7 +1140,8 @@ window.CATALOGO = [
 "Notas de salida": "Ylang-ylang",
 "Notas de corazón": "Vainilla",
 "Notas de fondo": "Palomitas acarameladas, almizcle",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-773.webp"
 },
 {
 "Ref": "PERF-774",
@@ -1147,7 +1154,8 @@ window.CATALOGO = [
 "Notas de salida": "Frutos rojos, limón",
 "Notas de corazón": "Rosa, violeta negra, cacao",
 "Notas de fondo": "Pachulí, sándalo, ámbar",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-774.webp"
 },
 {
 "Ref": "PERF-236",
@@ -1173,7 +1181,8 @@ window.CATALOGO = [
 "Notas de salida": "Ciruela, toronja",
 "Notas de corazón": "Avellana, miel",
 "Notas de fondo": "Pachulí, cedro, ámbar",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-702.webp"
 },
 {
 "Ref": "PERF-704",
@@ -1186,7 +1195,8 @@ window.CATALOGO = [
 "Notas de salida": "Bergamota, canela",
 "Notas de corazón": "Pachulí, tabaco",
 "Notas de fondo": "Haba tonka, cuero",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-704.webp"
 },
 {
 "Ref": "PERF-303",
@@ -1349,7 +1359,8 @@ window.CATALOGO = [
 "Notas de salida": "Lavanda, limón",
 "Notas de corazón": "Salvia, geranio",
 "Notas de fondo": "Vetiver, haba tonka, ámbar",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-775.webp"
 },
 {
 "Ref": "PERF-245",
@@ -1413,7 +1424,8 @@ window.CATALOGO = [
 "Concentración": "",
 "Notas de salida": "Limón, lavanda",
 "Notas de corazón": "Manzana, especias",
-"Notas de fondo": "Vainilla, vetiver, maderas"
+"Notas de fondo": "Vainilla, vetiver, maderas",
+"Imagen": "img/perfumes/PERF-435.webp"
 },
 {
 "Ref": "PERF-246",
@@ -1506,7 +1518,8 @@ window.CATALOGO = [
 "Notas de salida": "Limón, granada, bergamota",
 "Notas de corazón": "Jazmín sambac, flor de limón, peonía",
 "Notas de fondo": "Sándalo, ambroxán, almizcle",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-776.webp"
 },
 {
 "Ref": "PERF-741",
@@ -1547,7 +1560,8 @@ window.CATALOGO = [
 "Notas de salida": "Grosella negra, manzana verde, trébol",
 "Notas de corazón": "Durazno, rosa, jazmín",
 "Notas de fondo": "Pachulí, almizcle, estoraque",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-777.webp"
 },
 {
 "Ref": "PERF-234",
@@ -1666,7 +1680,8 @@ window.CATALOGO = [
 "Notas de salida": "Durazno, fresia",
 "Notas de corazón": "Osmanto",
 "Notas de fondo": "Cacao tostado",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-778.webp"
 },
 {
 "Ref": "PERF-598",
@@ -1909,7 +1924,8 @@ window.CATALOGO = [
 "Notas de salida": "Higo, mandarina",
 "Notas de corazón": "Pimienta, cardamomo",
 "Notas de fondo": "Cedro, vetiver",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-599.webp"
 },
 {
 "Ref": "PERF-623",
@@ -1936,7 +1952,8 @@ window.CATALOGO = [
 "Notas de salida": "Frutos rojos, pera",
 "Notas de corazón": "Jazmín, fresia",
 "Notas de fondo": "Almizcle, sándalo",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-629.webp"
 },
 {
 "Ref": "PERF-625",
@@ -1990,7 +2007,8 @@ window.CATALOGO = [
 "Concentración": "",
 "Notas de salida": "Pomelo, cardamomo, romero",
 "Notas de corazón": "Tuberosa, ylang-ylang",
-"Notas de fondo": "Cedro, cuero, ante"
+"Notas de fondo": "Cedro, cuero, ante",
+"Imagen": "img/perfumes/PERF-305.webp"
 },
 {
 "Ref": "PERF-627",
@@ -2387,7 +2405,8 @@ window.CATALOGO = [
 "Notas de salida": "Cardamomo, toronja",
 "Notas de corazón": "Canela, violeta",
 "Notas de fondo": "Haba tonka, cuero",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-665.webp"
 },
 {
 "Ref": "PERF-298",
@@ -2454,7 +2473,8 @@ window.CATALOGO = [
 "Notas de salida": "Limón, menta, pimienta rosa",
 "Notas de corazón": "Jazmín, peonía",
 "Notas de fondo": "Ládano, cedro, azúcar morena",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-779.webp"
 },
 {
 "Ref": "PERF-459",
@@ -2548,7 +2568,8 @@ window.CATALOGO = [
 "Notas de salida": "Cardamomo, pimienta rosa, menta",
 "Notas de corazón": "Salvia, melón",
 "Notas de fondo": "Castaña, vainilla, maderas",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-461.webp"
 },
 {
 "Ref": "PERF-286",
@@ -2927,7 +2948,8 @@ window.CATALOGO = [
 "Notas de salida": "Lavanda, menta, cardamomo, bergamota",
 "Notas de corazón": "Canela, flor de azahar, comino",
 "Notas de fondo": "Vainilla, haba tonka, ámbar, sándalo",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-780.webp"
 },
 {
 "Ref": "PERF-267",
@@ -2980,7 +3002,8 @@ window.CATALOGO = [
 "Notas de salida": "Bergamota",
 "Notas de corazón": "Coco",
 "Notas de fondo": "Haba tonka, sándalo",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-781.webp"
 },
 {
 "Ref": "PERF-266",
@@ -3164,7 +3187,8 @@ window.CATALOGO = [
 "Notas de salida": "Pimienta rosa, pera, nuez moscada",
 "Notas de corazón": "Rosa, magnolia",
 "Notas de fondo": "Cachemira, vetiver, almizcle",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-782.webp"
 },
 {
 "Ref": "PERF-783",
@@ -3177,7 +3201,8 @@ window.CATALOGO = [
 "Notas de salida": "Maracuyá, mandarina, frambuesa",
 "Notas de corazón": "Orquídea, cardamomo",
 "Notas de fondo": "Pachulí, ámbar, vainilla",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-783.webp"
 },
 {
 "Ref": "PERF-326",
@@ -3217,7 +3242,8 @@ window.CATALOGO = [
 "Notas de salida": "Granada, caqui",
 "Notas de corazón": "Orquídea negra, loto",
 "Notas de fondo": "Ámbar, maderas, nata",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-500.webp"
 },
 {
 "Ref": "PERF-498",
@@ -3324,7 +3350,8 @@ window.CATALOGO = [
 "Notas de salida": "Bergamota, mirto",
 "Notas de corazón": "Café tostado, chocolate, iris",
 "Notas de fondo": "Cuero, cedro",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-784.webp"
 },
 {
 "Ref": "PERF-263",
@@ -3813,7 +3840,8 @@ window.CATALOGO = [
 "Notas de salida": "Loto, melón, freesia",
 "Notas de corazón": "Peonía, lirio, clavel",
 "Notas de fondo": "Almizcle, cedro, osmanto",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-601.webp"
 },
 {
 "Ref": "PERF-728",
@@ -3908,7 +3936,8 @@ window.CATALOGO = [
 "Notas de salida": "Mandarina",
 "Notas de corazón": "Orquídea, jazmín",
 "Notas de fondo": "Vainilla, almizcle",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-584.webp"
 },
 {
 "Ref": "PERF-721",
@@ -4084,7 +4113,8 @@ window.CATALOGO = [
 "Notas de salida": "Pera, grosella negra, bergamota",
 "Notas de corazón": "Jazmín, peonía, freesia",
 "Notas de fondo": "Almizcle, maderas, ámbar",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-439.webp"
 },
 {
 "Ref": "PERF-518",
@@ -4275,7 +4305,8 @@ window.CATALOGO = [
 "Notas de salida": "Pera, pimienta",
 "Notas de corazón": "Iris, lavanda",
 "Notas de fondo": "Pachulí, cuero, haba tonka",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-787.webp"
 },
 {
 "Ref": "PERF-585",
@@ -4725,7 +4756,8 @@ window.CATALOGO = [
 "Notas de salida": "Limón, bergamota",
 "Notas de corazón": "Lavanda, geranio",
 "Notas de fondo": "Almizcle, maderas",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-788.webp"
 },
 {
 "Ref": "PERF-278",
@@ -4778,7 +4810,8 @@ window.CATALOGO = [
 "Notas de salida": "Hoja de violeta, limón",
 "Notas de corazón": "Nardo, jazmín, magnolia",
 "Notas de fondo": "Mirra, vainilla, sándalo",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-789.webp"
 },
 {
 "Ref": "PERF-616",
@@ -5294,7 +5327,8 @@ window.CATALOGO = [
 "Notas de salida": "Bergamota, limón, toronja",
 "Notas de corazón": "Lavanda, rosa",
 "Notas de fondo": "Almizcle, maderas",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-526.webp"
 },
 {
 "Ref": "PERF-417",
@@ -6221,7 +6255,8 @@ window.CATALOGO = [
 "Notas de salida": "Pistacho, almendra",
 "Notas de corazón": "Caramelo",
 "Notas de fondo": "Vainilla, almizcle",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-645.webp"
 },
 {
 "Ref": "PERF-189",
@@ -6410,7 +6445,8 @@ window.CATALOGO = [
 "Notas de salida": "Fresa, pera",
 "Notas de corazón": "Jazmín, malvavisco",
 "Notas de fondo": "Vainilla, almizcle",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-649.webp"
 },
 {
 "Ref": "PERF-125",
@@ -6586,7 +6622,8 @@ window.CATALOGO = [
 "Notas de salida": "Bergamota, pimienta",
 "Notas de corazón": "Lavanda, especias",
 "Notas de fondo": "Ámbar, maderas",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-639.webp"
 },
 {
 "Ref": "PERF-638",
@@ -6940,7 +6977,8 @@ window.CATALOGO = [
 "Notas de salida": "Bergamota, jengibre, pomelo",
 "Notas de corazón": "Notas marinas, lavanda",
 "Notas de fondo": "Ámbar gris, almizcle, cedro",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-791.webp"
 },
 {
 "Ref": "PERF-065",
@@ -6967,7 +7005,8 @@ window.CATALOGO = [
 "Notas de salida": "Cítricos, bergamota",
 "Notas de corazón": "Flores blancas",
 "Notas de fondo": "Almizcle, maderas",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-472.webp"
 },
 {
 "Ref": "PERF-470",
@@ -7532,7 +7571,8 @@ window.CATALOGO = [
 "Notas de salida": "Lichi, bergamota",
 "Notas de corazón": "Rosa, jazmín",
 "Notas de fondo": "Almizcle, ámbar, pachulí",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-451.webp"
 },
 {
 "Ref": "PERF-449",
@@ -7709,7 +7749,8 @@ window.CATALOGO = [
 "Notas de salida": "Frutas, bergamota",
 "Notas de corazón": "Jazmín, flor de azahar",
 "Notas de fondo": "Almizcle, vainilla, maderas",
-"Notas aproximadas": "Sí"
+"Notas aproximadas": "Sí",
+"Imagen": "img/perfumes/PERF-792.webp"
 },
 {
 "Ref": "PERF-069",
@@ -7774,7 +7815,8 @@ window.CATALOGO = [
 "Notas de salida": "Frutos rojos, azafrán",
 "Notas de corazón": "Rosa, jazmín",
 "Notas de fondo": "Ámbar, vainilla, almizcle",
-"Notas aproximadas": "sí"
+"Notas aproximadas": "sí",
+"Imagen": "img/perfumes/PERF-438.webp"
 },
 {
 "Ref": "PERF-100",
