@@ -1,6 +1,6 @@
 # Vorágine by Alttura · Catálogo 3D de fragancias
 
-Vitrina web interactiva de **Vorágine by Alttura**: más de 760 fragancias de diseñador, nicho y perfumería árabe presentadas en una órbita 3D. El cliente gira la vitrina, abre la pirámide olfativa de cada perfume, arma su pedido y lo cotiza directamente por WhatsApp.
+Vitrina web interactiva de **Vorágine by Alttura**: 593 fragancias de diseñador, nicho y perfumería árabe presentadas en una órbita 3D. El cliente gira la vitrina, abre la pirámide olfativa de cada perfume, arma su pedido y lo cotiza directamente por WhatsApp.
 
 **Sitio en línea:** https://juamm-se.github.io/voragine-web/
 

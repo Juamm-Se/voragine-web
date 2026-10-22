@@ -2,6 +2,7 @@
 
 ## Sin publicar
 
+- El catálogo ahora tiene exactamente los 593 perfumes de la lista de precios vigente (antes 767): se quitaron 199 que no se venden y se agregaron 25 que faltaban, con notas aproximadas y sin foto por ahora.
 - Los perfumes sin foto pasan al final de la vitrina, y su ficha dice "Foto próximamente" en vez de mostrar una letra gigante cortada.
 - El panel de filtros muestra cuántos perfumes hay con los filtros elegidos (antes decía siempre 767).
 - En celular, tocar fuera del panel de filtros lo cierra.
