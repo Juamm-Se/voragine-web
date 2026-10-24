@@ -11,7 +11,7 @@ window.TIENDA = {
 
   // Número de WhatsApp con indicativo de país, solo dígitos (57 = Colombia)
   // Ejemplo: "573001234567"
-  whatsapp: "573142996824",
+  whatsapp: "573209326822",
 
   // Mensaje que se envía al cotizar. {nombre}, {marca} y {ref} se reemplazan solos.
   mensaje: "Hola, deseo consultar el precio y disponibilidad de {nombre} de {marca} (Ref. #{ref}).",
