@@ -2,6 +2,7 @@
 
 ## Sin publicar
 
+- La dirección de la página queda limpia (voraginebyalttura.com) en vez de ir mostrando la referencia del perfume al frente (#PERF-…).
 - 42 perfumes más con foto (486 de 593) y fotos corregidas de Odyssey Spectra, Victoria, Khamrah Dukhan, Dylan Blue pour Homme y 212 Sexy Men.
 - El catálogo ahora tiene exactamente los 593 perfumes de la lista de precios vigente (antes 767): se quitaron 199 que no se venden y se agregaron 25 que faltaban, con notas aproximadas y sin foto por ahora.
 - Los perfumes sin foto pasan al final de la vitrina, y su ficha dice "Foto próximamente" en vez de mostrar una letra gigante cortada.
