@@ -25,8 +25,14 @@ Vitrina web interactiva de **Vorágine by Alttura**: 593 fragancias de diseñado
 | `js/app.js` | Motor de la vitrina 3D (archivo compilado, no editar a mano) |
 | `img/` | Logos e íconos |
 | `img/perfumes/` | Foto de cada perfume: `.webp` para internet y `.js` para abrir la página con doble clic sin servidor |
+| `editor/` | Panel privado del equipo para editar el catálogo con Claude ([cómo funciona](editor/LEEME.md)) |
+| `supabase/functions/editor/` | Servidor del panel: habla con Claude y guarda los cambios en la rama `borrador` |
 
 ## Cómo hacer cambios
+
+**La forma fácil:** entrar a [voraginebyalttura.com/editor/](https://voraginebyalttura.com/editor/) y pedirle los cambios al editor. Los cambios quedan en la rama `borrador` hasta que alguien autorizado pulsa *Publicar*. Ver [editor/LEEME.md](editor/LEEME.md).
+
+**A mano:**
 
 1. **Datos de la tienda:** editar los valores entre comillas en `config.js`.
 2. **Catálogo:** reemplazar `data/catalogo.js` con el archivo generado por la herramienta interna de Excel.
