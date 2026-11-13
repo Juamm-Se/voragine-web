@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Editor · Vorágine</title>
+  <meta name="theme-color" content="#0b0a0d">
+  <link rel="icon" href="../img/icono.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+  <!-- Inicio de sesión -->
+  <main id="pantalla-entrar" class="entrar" hidden>
+    <form id="form-entrar" class="entrar-caja" novalidate>
+      <img class="entrar-logo" src="../img/logo-voragine.png" alt="Vorágine by Alttura" width="1343" height="360">
+      <h1>Editor del catálogo</h1>
+      <p class="sutil">Solo para el equipo de Vorágine.</p>
+      <label for="correo">Correo</label>
+      <input id="correo" type="email" autocomplete="username" required>
+      <label for="clave">Contraseña</label>
+      <input id="clave" type="password" autocomplete="current-password" required>
+      <p id="entrar-error" class="error" role="alert" hidden></p>
+      <button class="boton boton-oro" type="submit">Entrar</button>
+    </form>
+  </main>
+
+  <!-- Aviso cuando falta configurar la conexión -->
+  <main id="pantalla-config" class="entrar" hidden>
+    <div class="entrar-caja">
+      <img class="entrar-logo" src="../img/logo-voragine.png" alt="Vorágine by Alttura" width="1343" height="360">
+      <h1>Falta conectar el editor</h1>
+      <p class="sutil">Pon la dirección y la llave pública de Supabase en <code>editor/config.js</code>.</p>
+    </div>
+  </main>
+
+  <!-- Editor -->
+  <div id="pantalla-editor" class="app" hidden>
+    <header class="barra">
+      <img class="barra-logo" src="../img/logo-voragine.png" alt="Vorágine by Alttura" width="1343" height="360">
+      <span class="barra-titulo">Editor</span>
+      <nav class="pestanas" aria-label="Secciones">
+        <button class="pestana activa" data-ver="chat" type="button">Chat</button>
+        <button class="pestana" data-ver="pendientes" type="button">Pendientes <span id="contador" class="contador" hidden></span></button>
+      </nav>
+      <span id="usuario" class="usuario"></span>
+      <button id="salir" class="boton boton-texto" type="button">Salir</button>
+    </header>
+
+    <section id="chat" class="chat" aria-label="Conversación con el editor">
+      <div id="mensajes" class="mensajes" aria-live="polite">
+        <div id="bienvenida" class="bienvenida">
+          <h2>¿Qué cambiamos hoy?</h2>
+          <p class="sutil">Escribe como le escribirías a un compañero. Puedes adjuntar fotos de los frascos. Nada sale en la página hasta que se publica.</p>
+          <div class="ideas">
+            <button class="idea" type="button">Agrega Khamrah Qahwa de Lattafa, unisex</button>
+            <button class="idea" type="button">¿Qué perfumes no tienen foto?</button>
+            <button class="idea" type="button">Quita el Stallion 53 de Emper, ya no lo vendemos</button>
+            <button class="idea" type="button">Cambia el eslogan</button>
+          </div>
+        </div>
+      </div>
+
+      <form id="redactar" class="redactar">
+        <div id="fotos-listas" class="fotos-listas" hidden></div>
+        <div class="redactar-fila">
+          <label class="boton boton-icono" title="Adjuntar fotos">
+            <input id="archivo" type="file" accept="image/*" multiple hidden>
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+            <span class="sr">Adjuntar fotos</span>
+          </label>
+          <textarea id="texto" rows="1" placeholder="Ej: agrega Odyssey Mandarin Sky de Armaf, caballero" aria-label="Mensaje"></textarea>
+          <button id="enviar" class="boton boton-oro" type="submit">Enviar</button>
+        </div>
+        <div class="redactar-pie">
+          <button id="nueva" class="boton boton-texto" type="button">Nueva conversación</button>
+        </div>
+      </form>
+    </section>
+
+    <aside id="pendientes" class="pendientes" aria-label="Cambios pendientes">
+      <div class="pendientes-cabeza">
+        <h2>Cambios sin publicar</h2>
+        <button id="refrescar" class="boton boton-texto" type="button">Actualizar</button>
+      </div>
+      <div id="lista-pendientes" class="lista-pendientes"><p class="sutil">Cargando…</p></div>
+      <div id="acciones" class="acciones" hidden>
+        <p id="nota-publicar" class="sutil"></p>
+        <button id="publicar" class="boton boton-oro" type="button">Publicar en la página</button>
+        <button id="descartar" class="boton boton-texto peligro" type="button">Descartar todo</button>
+        <p id="resultado" class="resultado" role="status"></p>
+      </div>
+    </aside>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="editor.js"></script>
+</body>
+</html>
