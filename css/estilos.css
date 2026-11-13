@@ -62,7 +62,7 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .logo-nombre { font-family: var(--serif); font-size: 24px; font-weight: 600; letter-spacing: .01em; white-space: nowrap; }
 .logo-eslogan { font-size: 10.5px; letter-spacing: .22em; text-transform: uppercase; color: var(--acento); margin-top: 4px; font-weight: 600; white-space: nowrap; }
 .logo-eslogan:empty { display: none; }
-.logo-img { display: block; height: 48px; width: auto; max-width: 46vw; filter: drop-shadow(0 2px 10px rgba(0, 0, 0, .45)); }
+.logo-img { display: block; height: 56px; width: auto; object-fit: contain; object-position: left center; max-width: 46vw; filter: drop-shadow(0 2px 10px rgba(0, 0, 0, .45)); }
 .portada-logo { display: block; width: min(74vw, 340px); height: auto; filter: drop-shadow(0 6px 22px rgba(212, 175, 55, .18)); }
 
 .buscador { position: relative; margin-left: auto; width: min(420px, 100%); }
@@ -476,7 +476,7 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
   .barra { padding: max(12px, env(safe-area-inset-top)) 16px 10px; gap: 10px; flex-wrap: wrap; }
   .logo-nombre { font-size: 20px; }
   .logo-marca { width: 32px; height: 32px; }
-  .logo-img { height: 38px; }
+  .logo-img { height: 46px; }
   .logo { gap: 8px; }
   .logo-eslogan { font-size: 9.5px; letter-spacing: .18em; }
   .buscador { order: 3; width: 100%; flex-basis: 100%; }
@@ -538,7 +538,7 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
   .barra .txt-corto { display: block; font-size: 10px; font-weight: 600; line-height: 1; letter-spacing: 0; white-space: nowrap; }
   .barra .btn-inicio .txt { display: block; font-size: 10px; line-height: 1; }
   .barra { gap: 4px; }
-  .logo-img { height: 28px; max-width: 30vw; }
+  .logo-img { height: 36px; max-width: 30vw; }
   .btn-inicio { margin-left: auto; }
   .btn-filtros { margin-left: 0; }
   .filtros { top: 130px; max-height: calc(100dvh - 146px); }

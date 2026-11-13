@@ -12,6 +12,7 @@
 - Si un perfume no tiene marca, ya no sale un punto suelto antes de "Ref.".
 - Textos grises pequeños más legibles (contraste 5,7:1).
 - Accesibilidad: la ventana de bienvenida tiene nombre y el mensaje "No encontramos..." del buscador está bien marcado.
+- Logo nuevo del Brand Book en toda la página: encabezado, portada, ícono de la pestaña, ícono del celular y la imagen que sale al compartir el enlace (vino con el logo en crema).
 
 ## v1.0.0 · 2026-10-21
 
